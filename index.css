@@ -57,23 +57,24 @@ body {
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
 }
+
 .l-header{
-    width: 100%;
+   width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--first-color);
+   background-color: var(--first-color);
 }
 /* Navbar */
-.nav{
+.navbarNav{
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav__name {
-    color: white;
+.navbar-brand {
+    color: #ffffff;
 }
 
 @media screen and (max-width: 768px){
@@ -84,28 +85,55 @@ body {
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color: rgba(255,255,255,.3);
+        background-color: rgb(71, 74, 109);
         transition: .5s;
     }
 }
-.nav__item{
-    margin-bottom: var(--mb-4);
+
+
+.nav-item-attr{
+    position:relative;
 }
-.nav__link{
+
+.nav-link{
     position: relative;
-    color: var(--dark-color);
+    color: var(--white-color);
 }
-.nav__link:hover{
+.nav-item:hover{
     color: var(--first-color);
 }
 .nav__logo{
     color: var(--white-color);
 }
-.nav__toggle{
+.navbar-toggler{
     color: var(--white-color);
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+.block-lng{
+   position: relative;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.block-lng::before{
+    content: "";
+    height: 35px;
+    border-left: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    top: 50%;
+    right: 0;
+    transform: translate(0,-50%);
+}
+
+
+/*.pip-nav{*/
+/*    color: white;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
 
 /* Base */
 *,::before,::after{
@@ -274,7 +302,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255,255,255,.3);
+    background-color: rgb(71, 74, 109);
     border-radius: .5rem;
     cursor: pointer;
     transition: .3s;
@@ -352,6 +380,20 @@ img{
 }
 .footer__social:hover{
     color: var(--first-color);
+}
+
+/* MODAL */
+
+.modal-body, .modal-header {
+    background-color: #474a6d;
+    color: #ffffff;
+}
+
+
+
+.img_footer{
+    width: 13rem;
+    height: auto;
 }
 
 /* media query */

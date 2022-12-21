@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac802122-93b3-446b-8ed4-72323d7d3abf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logo_github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logo_linkedin.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/firstPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/translate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lng/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/lng/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lng/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/lng/fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/skills.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/skills.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -29,8 +45,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/home.css" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/home.php" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/index.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/index.php" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/js/home.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/js/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/js/translate.js" root0="SKIP_INSPECTION" />
@@ -88,7 +104,15 @@
       <workItem from="1663570211837" duration="5000" />
       <workItem from="1663744908004" duration="1698000" />
       <workItem from="1664868807496" duration="170000" />
-      <workItem from="1664867988697" duration="1453000" />
+      <workItem from="1664867988697" duration="1691000" />
+      <workItem from="1667390101587" duration="10260000" />
+      <workItem from="1670482562266" duration="1241000" />
+      <workItem from="1671111140389" duration="21851000" />
+      <workItem from="1671300702781" duration="3209000" />
+      <workItem from="1671357811185" duration="734000" />
+      <workItem from="1671450261322" duration="1627000" />
+      <workItem from="1671462011446" duration="7553000" />
+      <workItem from="1671619204158" duration="4170000" />
     </task>
     <servers />
   </component>

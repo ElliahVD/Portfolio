@@ -6,9 +6,9 @@
             <img src="assets/Image.jpeg" alt="">
         </div>
         <div>
-            <span class="about__profession" lng-tag="presentation"></span>
+            <div class="about__profession" lng-tag="presentation"></div>
             <h2 class="about__subtitle">Amandine Delaire</h2>
-            <span class="about__profession" lng-tag="devWeb"></span>
+            <div class="about__profession" lng-tag="devWeb"></div>
             <p class="about__text" lng-tag="me">
                 </p>
 

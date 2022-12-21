@@ -11,8 +11,8 @@
             integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
             crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="home.css">
-    <title>Amandine Delaire Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Amandine Delaire, developpeuse web</title>
 </head>
 
 

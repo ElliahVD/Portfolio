@@ -4,18 +4,15 @@ function translate(lng, tagAttr) {
     translate.init(tagAttr, lng);
     translate.process();
     if (lng == 'en') {
-        document.getElementById('enTranslator').style.color = '#f4623a';
-        document.getElementById('frTranslator').style.color = '#212529';
-
+        document.getElementById('enTranslator').style.color = '#ffae00';
+        document.getElementById('frTranslator').style.color = '#ffffff';
     }
     if (lng == 'fr') {
         //dans ma page (document) je cherche l'ID translator
-        document.getElementById('frTranslator').style.color = '#f4623a';
-        document.getElementById('enTranslator').style.color = '#212529';
-
+        document.getElementById('frTranslator').style.color = '#ffae00';
+        document.getElementById('enTranslator').style.color = '#ffffff';
     }
 }
-
     //faire un window par precaution pour avoir tout le chargement de la page contrairement au document
     window.addEventListener('load', () => {
     //This is id of HTML element (English) with attribute lng-tag

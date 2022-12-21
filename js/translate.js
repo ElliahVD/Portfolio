@@ -7,7 +7,7 @@ function Translate() {
     //translate
     this.process = function(){
         _self = this;
-        var xrhFile = new XMLHttpRequest();
+        let xrhFile = new XMLHttpRequest();
         //load content data
         xrhFile.open("GET", "lng/"+this.lng+".json", false);
         xrhFile.onreadystatechange = function ()
@@ -16,11 +16,11 @@ function Translate() {
             {
                 if(xrhFile.status === 200 || xrhFile.status == 0)
                 {
-                    var LngObject = JSON.parse(xrhFile.responseText);
-                    var allDom = document.getElementsByTagName("*");
-                    for(var i =0; i < allDom.length; i++){
-                        var elem = allDom[i];
-                        var key = elem.getAttribute(_self.attribute);
+                    let LngObject = JSON.parse(xrhFile.responseText);
+                    let allDom = document.getElementsByTagName("*");
+                    for(let i =0; i < allDom.length; i++){
+                        let elem = allDom[i];
+                        let key = elem.getAttribute(_self.attribute);
                         if(key != null) {
                             elem.innerHTML = LngObject[key]  ;
                         }
@@ -32,3 +32,4 @@ function Translate() {
         xrhFile.send();
     }
 }
+

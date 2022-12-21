@@ -3,7 +3,7 @@
 
         <div class="">
             <h5 class="home__title mx-auto">
-                <span lng-tag="welcome"></span>
+                <div lng-tag="welcome"></div>
             </h5>
         </div>
     </div>

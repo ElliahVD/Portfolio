@@ -11,7 +11,7 @@
             integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
             crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="firstPage.css">
     <title>Amandine Delaire Projet1</title>
 </head>
@@ -29,19 +29,19 @@
             <ul class="nav__list">
                 <li class="nav__item">
                     <!--  active => la barre qui ce déplace avec le JS -->
-                    <a href="home.php" class="nav__link active">Accueil</a>
+                    <a href="index.php" class="nav__link active">Accueil</a>
                 </li>
                 <li class="nav__item">
-                    <a href="home.php" class="nav__link">A propos de moi</a>
+                    <a href="index.php" class="nav__link">A propos de moi</a>
                 </li>
                 <li class="nav__item">
-                    <a href="home.php" class="nav__link">Compétences</a>
+                    <a href="index.php" class="nav__link">Compétences</a>
                 </li>
                 <li class="nav__item">
-                    <a href="home.php" class="nav__link">Portfolio</a>
+                    <a href="index.php" class="nav__link">Portfolio</a>
                 </li>
                 <li class="nav__item">
-                    <a href="home.php" class="nav__link">Contact</a>
+                    <a href="index.php" class="nav__link">Contact</a>
                 </li>
             </ul>
         </div>
