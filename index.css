@@ -21,7 +21,7 @@ body {
     /* couleurs */
     --first-color: #474a6d;
     --white-color: #FAFAFF;
-    --dark-color: #474A6D;
+    --dark-color: #474a6d;
     --text-color: #474A6D;
     /* typo */
     --body-font: 'Merriweather';
@@ -166,22 +166,10 @@ img{
     padding: 3rem 0;
 }
 .section-title{
-    position: relative;
     font-size: var(--h2-font-size);
     color: var(--dark-color);
     margin: var(--mb-4) 0;
     text-align: center;
-}
-.section-title::after{
-    position: absolute;
-    content: "";
-    width: 32px;
-    height: .18rem;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 2rem;
-    background-color: var(--first-color);
 }
 
 /* show menu */
@@ -302,7 +290,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(71, 74, 109);
+    background-color: rgba(107, 107, 107, 0.75);
     border-radius: .5rem;
     cursor: pointer;
     transition: .3s;
@@ -517,4 +505,8 @@ textarea {
 label {
     display: block;
     margin-bottom: 10px;
+}
+
+#projet1.h1.h2.h3.h4.h5{
+    color: #474A6D;
 }

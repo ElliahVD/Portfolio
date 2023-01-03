@@ -4,7 +4,7 @@
 
 <nav class="navbar navbar-expand-lg  l-header ">
     <div class="container-fluid d-flex justify-content-space-between">
-        <a class="navbar-brand" href="#welcome">Amandine Delaire</a>
+        <a class="navbar-brand" href="https://amandinedelaire.fr#home">Amandine Delaire</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <div class="navbar-toggler-icon"></div>
         </button>

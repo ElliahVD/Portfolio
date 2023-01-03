@@ -39,7 +39,7 @@
             <img src="assets/1.jpg" alt=""/>
 
             <div class="portfolio__link">
-                <a href="firstPage.php" class="portfolio__link-name" lng-tag="first"></a>
+                <a href="figma_project.php" class="portfolio__link-name" lng-tag="first"></a>
             </div>
         </div>
         <div class="portfolio__img">
@@ -51,32 +51,31 @@
         </div>
         <div class="portfolio__img">
             <img src="assets/3.jpg" alt=""/>
-
             <div class="portfolio__link">
                 <a href="#" class="portfolio__link-name" lng-tag="more"></a>
             </div>
         </div>
-        <div class="portfolio__img">
-            <img src="assets/4.jpg" alt=""/>
-
-            <div class="portfolio__link">
-                <a href="#" class="portfolio__link-name" lng-tag="more"></a>
-            </div>
-        </div>
-        <div class="portfolio__img">
-            <img src="assets/5.jpg" alt=""/>
-
-            <div class="portfolio__link">
-                <a href="#" class="portfolio__link-name" lng-tag="more"></a>
-            </div>
-        </div>
-        <div class="portfolio__img">
-            <img src="assets/6.jpg" alt=""/>
-
-            <div class="portfolio__link">
-                <a href="#" class="portfolio__link-name" lng-tag="more"></a>
-            </div>
-        </div>
+<!--        <div class="portfolio__img">-->
+<!--            <img src="assets/4.jpg" alt=""/>-->
+<!---->
+<!--            <div class="portfolio__link">-->
+<!--                <a href="#" class="portfolio__link-name" lng-tag="more"></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="portfolio__img">-->
+<!--            <img src="assets/5.jpg" alt=""/>-->
+<!---->
+<!--            <div class="portfolio__link">-->
+<!--                <a href="#" class="portfolio__link-name" lng-tag="more"></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="portfolio__img">-->
+<!--            <img src="assets/6.jpg" alt=""/>-->
+<!---->
+<!--            <div class="portfolio__link">-->
+<!--                <a href="#" class="portfolio__link-name" lng-tag="more"></a>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 </section>
 

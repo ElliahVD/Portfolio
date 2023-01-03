@@ -25,3 +25,4 @@ function translate(lng, tagAttr) {
         translate('fr', 'lng-tag');
     })
 });
+
