@@ -18,18 +18,15 @@ if (!$_SESSION['mdp']) {
 </head>
 <body>
 <!--afficher tous les membres-->
-
 <?php
 $recupUsers = $bdd->query('SELECT * FROM member');
 while ($user = $recupUsers->fetch()){
-
 ?>
 <p><?=$user['pseudo'];  ?></p>
 
 <?php
 }
 ?>
-
 <!--fin afficher tous les membres-->
 </body>
 </html>

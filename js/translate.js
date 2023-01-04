@@ -4,6 +4,7 @@ function Translate() {
         this.attribute = attribute;
         this.lng = lng;
     }
+
     //translate
     this.process = function(){
         _self = this;

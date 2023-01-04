@@ -15,7 +15,6 @@
     <title>Amandine Delaire, developpeuse web</title>
 </head>
 
-
 <body id="page-top" onload="translate('en','lng-tag')">
 <div class="body__containeur" >
 <!--HEADER -->

@@ -374,7 +374,13 @@ img{
 .footer__social:hover{
     color: var(--first-color);
 }
-
+a.adCo{
+    background-color: #474A6D;
+    color: #474A6D;
+}
+a.adCo:hover{
+    color: white;
+}
 /* MODAL */
 
 .modal-body, .modal-header {
@@ -514,4 +520,12 @@ label {
 
 #projet1.h1.h2.h3.h4.h5{
     color: #474A6D;
+}
+
+.acces-verify{
+    color: white;
+    background-color: #474A6D;
+    text-align: center;
+    margin-top: 3rem;
+
 }

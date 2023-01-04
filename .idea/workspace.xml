@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac802122-93b3-446b-8ed4-72323d7d3abf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/404.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/verify.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/db-config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partials/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/member.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/member.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/translate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/footer.php" afterDir="false" />
+    </list>
+    <list id="082f7100-47c3-495d-af61-68b6572bdeac" name="Changes by weelders_laptop" comment="">
+      <change beforePath="$PROJECT_DIR$/admin/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -29,8 +45,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/404.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/admin/admin.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/admin/connexion.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/admin/member.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/admin/verify.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.php" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/js/home.js" root0="SKIP_INSPECTION" />
@@ -41,6 +60,31 @@
     <setting file="file://$PROJECT_DIR$/partials/footer.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/partials/header.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/wIp.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/admin/admin.php">
+      <ranges>
+        <range start1="2" end1="4" start2="2" end2="28" changelist="ac802122-93b3-446b-8ed4-72323d7d3abf" />
+        <range start1="5" end1="6" start2="29" end2="29" changelist="ac802122-93b3-446b-8ed4-72323d7d3abf" />
+        <range start1="7" end1="8" start2="30" end2="32" changelist="ac802122-93b3-446b-8ed4-72323d7d3abf" />
+        <range start1="15" end1="15" start2="39" end2="40" changelist="ac802122-93b3-446b-8ed4-72323d7d3abf" />
+        <range start1="17" end1="18" start2="42" end2="42" changelist="082f7100-47c3-495d-af61-68b6572bdeac" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/partials/contact.php">
+      <ranges>
+        <range start1="15" end1="16" start2="15" end2="16" changelist="082f7100-47c3-495d-af61-68b6572bdeac" />
+        <range start1="22" end1="25" start2="22" end2="22" changelist="ac802122-93b3-446b-8ed4-72323d7d3abf" />
+        <range start1="29" end1="30" start2="26" end2="27" changelist="082f7100-47c3-495d-af61-68b6572bdeac" />
+        <range start1="37" end1="38" start2="34" end2="35" changelist="ac802122-93b3-446b-8ed4-72323d7d3abf" />
+        <range start1="42" end1="43" start2="39" end2="40" changelist="ac802122-93b3-446b-8ed4-72323d7d3abf" />
+        <range start1="48" end1="49" start2="45" end2="46" changelist="082f7100-47c3-495d-af61-68b6572bdeac" />
+        <range start1="51" end1="52" start2="48" end2="49" changelist="ac802122-93b3-446b-8ed4-72323d7d3abf" />
+        <range start1="57" end1="58" start2="54" end2="55" changelist="ac802122-93b3-446b-8ed4-72323d7d3abf" />
+        <range start1="67" end1="74" start2="64" end2="64" changelist="ac802122-93b3-446b-8ed4-72323d7d3abf" />
+        <range start1="76" end1="76" start2="66" end2="67" changelist="ac802122-93b3-446b-8ed4-72323d7d3abf" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,31 +103,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Version final Portfolio" />
       <recent name="C:\Users\Stagiaire Osengo 06\Desktop\Amandine Sauvegarde\Version final Portfolio" />
       <recent name="C:\Users\Stagiaire Osengo 06\Desktop\Amandine Sauvegarde\Version final Portfolio\public" />
       <recent name="C:\Users\Stagiaire Osengo 06\Desktop\Version final Portfolio" />
       <recent name="C:\Users\Stagiaire Osengo 06\Desktop\Version final Portfolio\js" />
-      <recent name="C:\Users\Stagiaire Osengo 06\Desktop\Version final Portfolio\translate" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -118,7 +162,7 @@
       <workItem from="1672737266394" duration="6184000" />
       <workItem from="1672778190600" duration="4279000" />
       <workItem from="1672842276286" duration="1706000" />
-      <workItem from="1672844040070" duration="3989000" />
+      <workItem from="1672844040070" duration="23615000" />
     </task>
     <servers />
   </component>

@@ -48,6 +48,9 @@
 </footer>
 
 
+<a class=" adCo nav-link active text-end" aria-current="page" href="../admin/connexion.php">Connexion</a>
+
+
 <script src="js/home.js"></script>
 <script src="js/translate.js"></script>
 <script src="js/index.js"></script>

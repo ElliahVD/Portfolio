@@ -1,26 +1,5 @@
-<?php
-session_start();
 
-if (isset($_POST['valider'])) {
-    if (!empty($_POST['pseudo']) and !empty($_POST['mdp'])) {
-        $base_pseudo = "admin";
-        $base_mdp = "admin1234";
-        $pseudo_saisi = htmlspecialchars($_POST['pseudo']);
-        $mdp_saisi = htmlspecialchars($_POST['mdp']);
 
-        if ($pseudo_saisi == $base_pseudo and $mdp_saisi == $base_mdp) {
-            $_SESSION['mdp'] = $mdp_saisi;
-            header('location: admin.php');
-        } else {
-            echo "Votre mot de passe ou pseudo est incorrect";
-        }
-    } else {
-        echo "Veuillez compléter tous les champs";
-    }
-
-}
-
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -31,16 +10,17 @@ if (isset($_POST['valider'])) {
     <title>Connexion Admin</title>
 </head>
 <body>
-<form method="post" action="" align="center">
+<form method="post" action="admin.php" align="center">
     <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="pseudo" class="form-label">Pseudo</label>
+        <input name="pseudo" type="text" class="form-control" id="pseudo" aria-describedby="pseudo">
     </div>
     <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
+        <label for="mdp" class="form-label">Mot de passe</label>
+        <input name="mdp" type="password" class="form-control" id="mdp">
     </div>
-    <button type="submit" class="btn btn-primary">Valider</button>
+    <button type="submit" class="btn">Valider</button>
 </form>
+
 </body>
 </html>
