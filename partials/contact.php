@@ -8,13 +8,12 @@
             <h3 class="contact__subtitle">GitHub</h3>
             <div class="contact__text">https://github.com/ElliahVD</div>
         </div>
+
         <section class="">
             <div class="container contact-form pt-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-md-12">
-                        <form name="contact" method="post"
-                              action="https://emails-static.drosalys.net/submit/contact/67144ed2-3ab1-4c89-845c-a1bb8239ba00"
-                              novalidate="novalidate" data-drosalys-remote-submit="data-drosalys-remote-submit">
+                        <form name="contact" method="post">
                             <div class="alert alert-success d-none" data-message-success="d-none">
                                 Message envoyé avec succès !
                             </div>
@@ -29,7 +28,8 @@
                                     <div class="form-group col-md-6">
                                         <label for="contact_name">Votre Nom </label><input type="text" id="contact_name"
                                                                                            name="contact[name]"
-                                                                                           class="form-control">
+                                                                                           class="form-control"
+                                                                                           required>
                                     </div>
                                 </div>
                                 <div class="form-row row mt-3">
@@ -41,11 +41,11 @@
                                     <div class="form-group col-md-6">
                                         <label for="contact_email">E-mail </label><input type="email" id="contact_email"
                                                                                          name="contact[email]"
-                                                                                         class="form-control">
+                                                                                         class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="form-group mt-3">
-                                    <label for="contact_message ">Message </label>
+                                    <label for="contact_message " required>Message </label>
                                     <textarea id="contact_message" name="contact[message]" class="form-control"
                                               rows="5"></textarea>
                                 </div>
@@ -65,7 +65,13 @@
                 </div>
             </div>
         </section>
-
+        <?php
+        if (isset($_POST['message'])) {
+            $retour = mail('contact@amandinedelaire.fr', 'Envoi depuis la page Contact', $_POST['message'], 'From: amandinedelaire.fr');
+            if ($retour)
+                echo '<p>Votre message a bien été envoyé.</p>';
+        }
+        ?>
     </div>
 </section>
 

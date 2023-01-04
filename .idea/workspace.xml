@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac802122-93b3-446b-8ed4-72323d7d3abf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/connexion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/member.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +32,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/admin/connexion.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/admin/member.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.php" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/js/home.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/js/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/js/translate.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/partials/about.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/partials/contact.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/partials/footer.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/partials/header.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/wIp.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
@@ -121,7 +120,7 @@
       <workItem from="1672737266394" duration="6184000" />
       <workItem from="1672778190600" duration="4279000" />
       <workItem from="1672842276286" duration="1706000" />
-      <workItem from="1672844040070" duration="2099000" />
+      <workItem from="1672844040070" duration="3692000" />
     </task>
     <servers />
   </component>
