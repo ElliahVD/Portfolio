@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac802122-93b3-446b-8ed4-72323d7d3abf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/figma_project.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wIp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/connexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/member.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Image[1].jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstPage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lng/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/lng/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lng/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/lng/fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/admin/connexion.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.php" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/js/home.js" root0="SKIP_INSPECTION" />
@@ -66,7 +55,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2E4JaEdZ5on0kmJlKlUMdSDH6f8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -127,7 +118,10 @@
       <workItem from="1671783250097" duration="2335000" />
       <workItem from="1672176723343" duration="11112000" />
       <workItem from="1672645750956" duration="3347000" />
-      <workItem from="1672737266394" duration="313000" />
+      <workItem from="1672737266394" duration="6184000" />
+      <workItem from="1672778190600" duration="4279000" />
+      <workItem from="1672842276286" duration="1706000" />
+      <workItem from="1672844040070" duration="2099000" />
     </task>
     <servers />
   </component>
