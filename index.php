@@ -17,7 +17,7 @@
 
 
 <body id="page-top" onload="translate('en','lng-tag')">
-
+<div class="body__containeur" >
 <!--HEADER -->
 <?php include_once 'partials/header.php' ?>
 
@@ -84,6 +84,6 @@
 
 <!-- FOOTER -->
 <?php include_once 'partials/footer.php' ?>
-
+</div>
 </body>
 </html>
