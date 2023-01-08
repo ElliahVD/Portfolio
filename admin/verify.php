@@ -12,7 +12,6 @@ try {
 
     //Contrôle des formats des deux paramètres via les expressions régulières
     $Format_Email = '#[a-z0-9]{1,}[\-\_\.a-z0-9]{0,}@[a-z]{2,}[\-\_\.a-z0-9]{0,}\.[a-z]{2,6}$#';
-   // $Format_Message = '#^[a-zA-Z0-9áàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\.\_\-\s]{5,500}$#';
     if (!preg_match($Format_Email, $email)) throw new Exception("Votre email ne correspond pas au format attendu");
     if (strlen($message) < 5 && strlen($message) > 500) throw new Exception("Votre message contient trop ou pas assez de caractères");
 
@@ -25,18 +24,15 @@ try {
 
     //Préparation de la requête (sécurisation des variables du tableau associatif)
     $Request = $Pdo_Object->prepare($Sql_Query);
-
     //Exécution de la requête
     $Request->execute($Arr_Key_Value);
 
-    mail('weelders@hotmail.fr', $_POST["contact_object"], $email." -- ".$message);
-
+    mail('contact@amandinedelaire.fr', $_POST["contact_object"], $email." -- ".$message);
 } catch (Exception $e) {
     echo $e->getMessage();
 } finally {
     //Fermeture de la connexion en détruisant la référence mémoire à l'objet PDO
     $Pdo_Object = null;
 }
-
 ?>
 <p>Votre message à bien été envoyé!</p>

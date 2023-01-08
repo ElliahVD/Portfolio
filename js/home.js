@@ -2,7 +2,7 @@
 let btnContainer = document.getElementById("navbarNav");
 
 // Get all buttons with class="btn" inside the container
-var btns = btnContainer.getElementsByClassName("nav-item-attr");
+let btns = btnContainer.getElementsByClassName("nav-item-attr");
 
 // Loop through the buttons and add the active class to the current/clicked button
 for (let i = 0; i < btns.length; i++) {

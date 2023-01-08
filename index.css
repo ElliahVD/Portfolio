@@ -1,6 +1,3 @@
-.body__containeur{
-
-}
 
 
 /* Body */
@@ -65,7 +62,6 @@ body {
 
 .l-header{
    width: 100%;
-    position: fixed;
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
@@ -81,7 +77,6 @@ body {
 .navbar-brand {
     color: #ffffff;
 }
-
 @media screen and (max-width: 768px){
     .nav__menu{
         position: fixed;
@@ -94,8 +89,6 @@ body {
         transition: .5s;
     }
 }
-
-
 .nav-item-attr{
     position:relative;
 }
